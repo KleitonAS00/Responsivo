@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+header {
+    background-color: #000;
+}
+
+.container {
+    max-width: 640px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .menu {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+nav li {
+    list-style: none;
+    padding: 3px 0;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sobre-loja img {
+    padding-top: 28px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+section h2 {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #000;
+    margin: 28px 0;
+}
+
+.produtos {
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.produtos img {
+    max-width: 180px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.63);
+    border-radius: 8px;
+}
+
+h3 {
+    padding-top: 12px;
+}
+
+button {
+    padding: 8px;
+    margin: 28px 0;
+    width: 100%;
+    color: #fff;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    background-color: #000;
+    border-radius: 8px;
+    border: none;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+    font-size: 0.7em;
+    position: sticky;
+    z-index: 0;
+}
